@@ -10,11 +10,11 @@ let T = new Twit({
 }); 
 
 var params = {
-  q: '"SenAlexander"',
-  count: 100
+  q: 'from:SenAlexander OR from:SenatorCantwell patient',
+  count: 10
 }
 
-T.get('search/tweets', params,searchedData); 
+T.get('search/tweets', params, searchedData); 
 
 function searchedData(err, data, response) {
 
