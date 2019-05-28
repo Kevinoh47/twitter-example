@@ -1,0 +1,24 @@
+{
+  "name": "twitter-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinoh47/twitter-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevinoh47/twitter-example/issues"
+  },
+  "homepage": "https://github.com/Kevinoh47/twitter-example#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "twit": "^2.2.11"
+  }
+}
